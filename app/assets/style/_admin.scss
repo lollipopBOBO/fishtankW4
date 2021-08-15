@@ -1,0 +1,40 @@
+.content{
+    padding: 2rem;
+    width:936px;
+}
+.plusadmin {
+    text-decoration-line: none;
+
+}
+
+.admin-title-func{
+    list-style: none;
+    margin-bottom: 0;
+ li {
+    padding-left: 26px; 
+    span{
+    padding-right: 0;    
+    }
+ }
+
+
+}
+
+.icondown{
+    vertical-align: middle
+}
+.view-edit{
+    list-style:none;
+    margin-bottom: 0;
+
+}
+.mb-16{
+    margin-bottom: 64px;
+} 
+  
+.table > :not(caption) > * > * {
+    padding: 19px 8px 17px 8px;
+  }
+.page-1{
+    background-color: $success;
+}

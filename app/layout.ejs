@@ -6,21 +6,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
+ 
+  <!-- google icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <!--Google font-->
+  
+  <!-- 自己的CSS -->
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
-<body>
-  <header class="header">
-    這是 header
-  </header>
-
+<body >
+  <div class="d-flex">
+  <div class="mynav bg-light d-flex flex-column justify-content-between ">
+    <div> 
+      <!--標題--> 
+    <h1 class="logo mb-4"><a href="#">
+      <img src="./assets/images/logo-ANSWER.svg" alt="ANSWER logo">
+      </a>
+    </h1>
+     <!--選項--> 
+    <ul class="nav flex-column" >
+        <li class="nav-item mb-4 ">
+          <a class="nav-link link-dark fw-bold d-flex justify-start items-center " aria-current="page" href="#"> 
+              <span class="material-icons pe-3">
+                assessment</span> Dashboard
+              </a>
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link link-dark fw-bold d-flex justify-start items-center" href="#"><span class="material-icons pe-3">
+              forum
+            </span>Question</a>
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link link-dark  fw-bold d-flex justify-start items-center" href="#">
+            <span class="material-icons pe-3"> assignment </span>
+            Assignment
+          </a>
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link link-dark fw-bold d-flex justify-start items-center" href="#"><span class="material-icons pe-3">
+              video_library
+              </span>Course</a>
+        
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link link-success active fw-bold d-flex justify-start items-center" href="#"><span class="material-icons pe-3">
+              people_alt
+              </span> Admin</a>
+        </li>
+        <li class="nav-item mb-4">
+          <a class="nav-link link-dark fw-bold d-flex justify-start items-center" href="#"><span class="material-icons pe-3">
+              settings
+              </span>Settings</a>
+        </li>
+      </ul>
+      </div> 
+      <!--使用者-->      
+      <div class="d-flex ms-4 me-3 mb-4">
+        <img
+          src="./assets/images/andychen.jpeg"
+          alt="andychen"
+          class="s-img me-3"
+        />
+        <div>
+          <p class="fz-4 fw-bold mb-0">Andy Chen</p>
+          <p class="fz-2 mb-0">andy0401@mail.com</p>
+        </div>
+      </div>
+</div>
   <%- contents %>
-
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+</div>
 </body>
 
 </html>

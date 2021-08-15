@@ -1,12 +1,212 @@
 ---
-title: 首頁
+title: 名單
 layout: ./app/layout.ejs
 engine: ejs
-current: index
+current: admin
 ---
 
-<h1>
-  這是一段話
-</h1>
+<main class="content d-flex flex-column "> 
+   <div class="d-flex justify-content-between align-items-center mb-3">
+      <div class="d-flex align-items-center">
+         <h2 class="me-5 fw-bold">Admin</h2>
+        <a class="d-flex align-item-center text-dark plusadmin fw-bold"><span class="material-icons text-success pe-3">    
+        add
+        </span>Add New Admin</a>
+      </div>
+      <ul class="admin-title-func d-flex">
+          <li><span class="material-icons">
+            search
+            </span></li>
+          <li>
+              <span class="material-icons">
+                  notifications_active
+              </span></li>
+      </ul>
+  </div>
+ 
+  <table class="table table-hover mb-16">
+    <thead>
+      <tr>
+        <th scope="col fw-bold pb-0 ">ID<span class="material-icons fz-2 text-success icondown">
+          arrow_downward</th>
+        <th scope="col fw-bold pb-0">Name</th>
+        <th scope="col fw-bold pb-0">Email</th>
+        <th scope="col fw-bold pb-0">Verified</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">#1</th>
+        <td>Emir Wicks</td>
+        <td>emir.wicks@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <ul class="d-flex justify-content-end view-edit ">
+            <li></span><span class="material-icons pe-3 ps-0 ">
+              visibility
+              </span> </li>
+               <li><span class="material-icons ps-0 ">
+                edit
+                </span>
+                </li>
+              </ul> </td> 
+      </tr>
+      <tr >
+        <th scope="row">#2</th>
+        <td>Zaina Goldsmith</td>
+        <td>zaina.goldsmith@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <ul class="d-flex justify-content-end view-edit ">
+            <li></span><span class="material-icons pe-3 ps-0">
+              visibility
+              </span> </li>
+               <li><span class="material-icons ps-0">
+                edit
+                </span>
+                </li>
+              </ul> </td>
+      </tr>
+      <tr>
+        <th scope="row">#3</th>
+        <td>EMahima Lopez</td>
+        <td>mahima.lopez@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <ul class="d-flex justify-content-end view-edit ">
+          <li></span><span class="material-icons pe-3 ps-0">
+            visibility
+            </span> </li>
+             <li><span class="material-icons ps-0">
+              edit
+              </span>
+              </li>
+            </ul> 
+          </td>   
+      </tr>
+      <tr>
+        <th scope="row">#4</th>
+        <td>Pharrell Murray</td>
+        <td>pharrell.murray@mail.com</td>
+        <td>Yes</td>
+        <td>
+          <ul class="d-flex justify-content-end view-edit ">
+            <li></span><span class="material-icons pe-3 ps-0">
+              visibility
+              </span> </li>
+               <li><span class="material-icons ps-0">
+                edit
+                </span>
+                </li>
+              </ul> </td>
+      </tr>
+      <tr>
+        <th scope="row">#5</th>
+        <td>Annika Mcbride</td>
+        <td>annika.mcbride@mail.com</td>
+        <td>Yes</td>
+        <td> <ul class="d-flex justify-content-end view-edit ">
+          <li></span><span class="material-icons pe-3 ps-0">
+            visibility
+            </span> </li>
+             <li><span class="material-icons ps-0">
+              edit
+              </span>
+              </li>
+            </ul> </td>
+      </tr>
+      <tr>
+        <th scope="row">#6</th>
+        <td>Fatimah Clark</td>
+        <td>fatimah.clark@mail.com</td>
+        <td>Yes</td>
+        <td> <ul class="d-flex justify-content-end view-edit ">
+          <li></span><span class="material-icons pe-3 ps-0">
+            visibility
+            </span> </li>
+             <li><span class="material-icons ps-0">
+              edit
+              </span>
+              </li>
+            </ul> </td>
+      </tr>
+      <tr>
+        <th scope="row">#7</th>
+        <td>Klaudia Rhodes</td>
+        <td>klaudia.rhodes@mail.com</td>
+        <td>Yes</td>
+        <td> <ul class="d-flex justify-content-end view-edit ">
+          <li></span><span class="material-icons pe-3 ps-0">
+            visibility
+            </span> </li>
+             <li><span class="material-icons ps-0">
+              edit
+              </span>
+              </li>
+            </ul> </td>
+      </tr>
+      <tr>
+        <th scope="row">#8</th>
+        <td>Tillie Lucero</td>
+        <td>tillie.lucero@mail.com</td>
+        <td>Yes</td>
+        <td> <ul class="d-flex justify-content-end view-edit ">
+          <li></span><span class="material-icons pe-3 ps-0">
+            visibility
+            </span> </li>
+             <li><span class="material-icons ps-0">
+              edit
+              </span>
+              </li>
+            </ul> </td>
+      </tr>
+      <tr>
+        <th scope="row">#9</th>
+        <td>Sabrina Stephenson</td>
+        <td>sabrina.stephenson@mail.com</td>
+        <td>Yes</td>
+        <td> <ul class="d-flex justify-content-end view-edit ">
+          <li></span><span class="material-icons pe-3 ps-0">
+            visibility
+            </span> </li>
+             <li><span class="material-icons ps-0">
+              edit
+              </span>
+              </li>
+            </ul> </td>
+      </tr>
+      <tr>
+        <th scope="row">#10</th>
+        <td>Annie Smith</td>
+        <td>annie.smith@mail.com</td>
+        <td>Yes</td>
+        <td> <ul class="d-flex justify-content-end view-edit ">
+          <li></span><span class="material-icons pe-3 ps-0">
+            visibility
+            </span> </li>
+             <li><span class="material-icons ps-0">
+              edit
+              </span>
+              </li>
+            </ul> </td>
+      </tr>
+    </tbody>
+  </table>
 
-<div class="box"></div>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-end">
+        <li class="page-item ">
+            <a class="page-link border-success text-success " href="#"  aria-disabled="true"> < </a>
+        </li>
+        <li class="page-item bg-success active page-1"><a class="page-link border-success text-white " href="#">1</a></li>
+        <li class="page-item "><a class="page-link border-success text-dark " href="#">2</a></li>
+        <li class="page-item "><a class="page-link border-success text-dark " href="#">3</a></li>
+        <li class="page-item ">
+            <a class="page-link border-success text-success text-success " href="#"> > </a>
+         </li>
+    </ul>
+</nav>
+
+
+</main>

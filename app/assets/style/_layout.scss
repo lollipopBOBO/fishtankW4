@@ -1,0 +1,31 @@
+  .mynav{
+  
+    min-width: 296px;
+    min-height: 100vh;
+    
+  }
+
+  .logo{
+    padding-left: 2rem;
+    padding-right:113px ;
+    margin-top: 2.5rem;
+  }
+  .nav-link{
+    padding-left: 2rem;
+    position: relative;
+    display: flex;
+  }
+
+  .nav-link.active::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid #198754;
+  }
+  .s-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
